@@ -1,9 +1,11 @@
 #include<stdio.h>
-int swap(int *x, int *y){
+int swap(int a, int b){
 	int temp;
-	temp=*x;
-	*x=*y;
-	*y=temp;
+	temp=a;
+	a=b;
+	b=temp;
+
+	printf("After swap: num1=%d, num2=%d\n",a,b);
 }
 
 
@@ -17,9 +19,9 @@ int main(){
 	
 	printf("before swap: num1=%d, num2=%d\n",a,b);
 	
-	swap(&a,&b);
+	swap(a,b);
 	
-	printf("After swap: num1=%d, num2=%d\n",a,b);
+	
 	
 
 

@@ -7,7 +7,9 @@ int findlargest(int arr[],int n){
 			largest=arr[i];
 		}
 	}
-	return largest;
+	printf("the largest element of array is: %d\n",largest);
+
+	
 }
 
 int main(){
@@ -22,9 +24,9 @@ int main(){
 		scanf("%d",&arr[i]);
 	}
 	
-	int largest=findlargest(arr,n);
+	findlargest(arr,n);
 	
-	printf("the largest element of array is: %d\n",largest);
+	
 	
 	return 0;
 }
