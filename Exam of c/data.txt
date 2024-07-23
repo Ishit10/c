@@ -1,0 +1,9 @@
+student1
+name:ishit
+course:account
+student2
+name:foram
+course:python
+student3
+name:ishu
+course:commerce
